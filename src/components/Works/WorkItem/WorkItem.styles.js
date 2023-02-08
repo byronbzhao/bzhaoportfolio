@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-	height: 280px;
-	width: 350px;
-	margin: 2px;	
+	height: 400px;
+	width: 400px;
+	margin: 10px 20px 20px 10px;
 	
-
-
 	@media screen and (max-width: 900px) {
 		height: 70%;
 		width: 80%;
@@ -20,7 +18,7 @@ export const Container = styled.div`
 	justify-content: center;
 	height: 100%;
 	width: 100%;
-	position: relative; 	
+	position: relative;
 
 	img {
 		height: 100%;
