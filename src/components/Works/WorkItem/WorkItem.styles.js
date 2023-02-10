@@ -27,6 +27,7 @@ export const Container = styled.div`
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		object-fit: cover;
 	}
 
 	@media screen and (max-width: 900px) {
@@ -51,7 +52,7 @@ export const Overlay = styled.div`
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.75);
 	opacity: 0;
 	display: flex;
 	align-items: center;

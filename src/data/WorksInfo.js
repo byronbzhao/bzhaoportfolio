@@ -6,6 +6,9 @@ import calculatorApp from '../assets/projectImg/calculator.png';
 import githubSearchApp from '../assets/projectImg/githubsearch.png';
 import formValidatorApp from '../assets/projectImg/formvalidator.png';
 import wordleCloneApp from '../assets/projectImg/wordleclone.png';
+import meTubeApp from '../assets/projectImg/metubeapp.PNG'
+import cryptoApp from '../assets/projectImg/cryptoapp.PNG'
+
 
 const projects = [
 	{
@@ -64,21 +67,21 @@ const projects = [
 	},
 	{
 		id: 7,
-		name: 'Form Validator',
-		desc: 'A simple form validating project that has certain conditions that needs to be met such as password length and proper email',
-		img: formValidatorApp,
-		code: 'https://github.com/byronbzhao/form-validator',
-		liveServer: 'https://validateformapp.netlify.app/',
-		skills: ['HTML', 'CSS', 'JS'],
+		name: 'MeTube',
+		desc: '',
+		img: meTubeApp,
+		code: 'https://github.com/byronbzhao/youtube-player',
+		liveServer: 'https://metubeapp.netlify.app/',
+		skills: ['ReactJS', 'AXIOS', 'MUI'],
 	},
 	{
 		id: 8,
-		name: 'Github Profile Search',
-		desc: 'Using Github API, this application allows you to search for any profile and see their followers and links to their most recent repositories',
-		img: githubSearchApp,
-		code: 'https://github.com/byronbzhao/github-profiles',
-		liveServer: 'https://search4githubprofiles.netlify.app/',
-		skills: ['HTML', 'CSS', 'JS'],
+		name: 'Cryptocurrency App',
+		desc: '',
+		img: cryptoApp,
+		code: 'https://github.com/byronbzhao/cryptoinfo-app',
+		liveServer: 'https://mycryptoinfo.netlify.app/',
+		skills: ['ReactJS', 'TailwindCSS', 'JS'],
 	},
 ];
 

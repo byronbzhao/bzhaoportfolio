@@ -39,7 +39,7 @@ const About = () => {
 						<p>
 							I am a self taught front end developer that specializes in
 							building modern, responsive web applications using HTML, CSS,
-							Javascript, and reactJS. I love to further hone my skills and
+							Javascript/Typescript, and ReactJS. I love to further hone my skills and
 							learning new ways to optimize for better and cleaner code!
 						</p>{' '}
 						<button>
