@@ -5,10 +5,12 @@ export const Wrapper = styled.div`
 	width: 400px;
 	margin: 10px 20px 20px 10px;
 	
-	@media screen and (max-width: 900px) {
-		height: 70%;
-		width: 80%;
-		/* margin: 10px; */
+	
+	@media screen and (max-width: 950px) {
+		width: 90%;
+		padding-top: 6rem;
+		margin: none;
+
 	}
 `;
 
@@ -30,13 +32,21 @@ export const Container = styled.div`
 		object-fit: cover;
 	}
 
-	@media screen and (max-width: 900px) {
-		position: static;
+
+	@media screen and (max-width: 1800px) {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 
-	@media screen and (max-width: 1200px) {
-		position: static;
+	@media screen and (max-width: 1400px) {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	@media screen and (max-width: 950px) {
+		grid-template-columns: 1fr;
 		flex-direction: column;
+		width: 100%;
+		height: 100%;
+
 	}
 `;
 
@@ -103,10 +113,19 @@ export const Overlay = styled.div`
 		opacity: 1;
 		margin-bottom: 10px;
 		padding-bottom: 10px;
-		
 
 		p {
 			display: none;
 		}
+	}
+`
+
+export const InfoContainer = styled.div`
+	display: flex;
+	/* background-color: green; */
+	padding: 1rem;
+
+	p {
+		font-size: 20px;
 	}
 `

@@ -17,9 +17,12 @@ import Typescript from '../../assets/img/Typescript.png'
 import Git from '../../assets/img/git.png'
 import Mongo from '../../assets/img/mongo.png'
 import Node from '../../assets/img/node.png'
+import Tailwind from '../../assets/img/tailwind.png'
+
+
 
 const Skills = () => {
-	const skills = [HTML, CSS, Javascript, ReactJS, Github];
+	const skills = [HTML, CSS, Javascript, ReactJS, Github, Tailwind];
 	const futureSkills = [Typescript, Git, Mongo, Node]
 
 	return (

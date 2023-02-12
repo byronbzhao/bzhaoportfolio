@@ -1,6 +1,5 @@
 import React from 'react';
-import { Container, Overlay, Wrapper } from './WorkItem.styles';
-
+import { Container, Overlay, Wrapper, InfoContainer } from './WorkItem.styles';
 
 const WorkItem = ({ name, desc, img, code, liveServer, skills }) => {
 	return (
@@ -10,10 +9,19 @@ const WorkItem = ({ name, desc, img, code, liveServer, skills }) => {
 				<Overlay>
 					<h2>{name}</h2>
 					<div>
-						<a href={liveServer} target='_blank' rel='noreferrer'>Live Server</a>
-						<a href={code} target='_blank' rel='noreferrer'>Code</a>
+						<a href={liveServer} target='_blank' rel='noreferrer'>
+							Live Server
+						</a>
+						<a href={code} target='_blank' rel='noreferrer'>
+							Code
+						</a>
 					</div>
-					<p>{desc}</p>
+					{/* <p>{desc}</p> */}
+					<InfoContainer>
+						{skills.map((skill, i) => (
+							<p>{skill}</p>
+						))}
+					</InfoContainer>
 				</Overlay>
 			</Container>
 		</Wrapper>

@@ -14,7 +14,7 @@ const Works = () => {
 				transition={{ duration: 1 }}
 			>
 				<Container>
-					<h1>Check out my work!</h1>
+					<h1>Check out my <span>projects!</span></h1>
 					<WorkContainer>
 						{projects.map((project) => (
 							<WorkItem
