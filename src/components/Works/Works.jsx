@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, WorkContainer, Wrapper } from './Works.styles';
 
 import projects from '../../data/WorksInfo';

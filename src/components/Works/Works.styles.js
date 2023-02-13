@@ -15,6 +15,12 @@ export const Container = styled.div`
 		margin-top: 1rem;
 		color: #ffffff;
 		font-size: 5rem;
+
+		@media screen and (max-width: 950px) {
+			text-align: center;
+			padding: 0 2rem 0 2rem;
+		}
+		
 	}
 	span {
 		color: rgb(219, 39, 119);
