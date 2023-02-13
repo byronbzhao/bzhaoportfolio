@@ -19,7 +19,7 @@ export const Container = styled.div`
 export const SkillsContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: center;
 
 	h1 {
@@ -36,7 +36,7 @@ export const SkillsContainer = styled.div`
 		margin: 0 20px;
 	}
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 950px) {
         h1 {
             font-size: 40px;
         }

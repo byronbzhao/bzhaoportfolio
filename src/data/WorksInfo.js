@@ -8,17 +8,18 @@ import formValidatorApp from '../assets/projectImg/formvalidator.png';
 import wordleCloneApp from '../assets/projectImg/wordleclone.png';
 import meTubeApp from '../assets/projectImg/metubeapp.PNG'
 import cryptoApp from '../assets/projectImg/cryptoapp.PNG'
+import notesApp from '../assets/projectImg/notesapp.PNG'
 
 
 const projects = [
 	{
 		id: 1,
-		name: 'Netflix Clone',
+		name: 'CRUD Notes App',
 		desc: 'Recreating the Netflix website using ReactJS, styled with Styled Components as well as Firebase to store login information',
-		img: netflixClone,
-		code: 'https://github.com/byronbzhao/netflixclone.git',
-		liveServer: 'https://reactnetflixcopy.netlify.app/',
-		skills: ['ReactJS', 'Styled Components', 'Firebase'],
+		img: notesApp,
+		code: 'https://github.com/byronbzhao/CRUD-notes-app-ts',
+		liveServer: 'https://takenoteshere.netlify.app/',
+		skills: ['ReactJS', 'Bootstrap', 'Typescript',]
 	},
 	{
 		id: 2,

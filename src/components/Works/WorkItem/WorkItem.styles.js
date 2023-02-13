@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
 	height: 400px;
 	width: 400px;
 	margin: 10px 20px 20px 10px;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+	box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.7);
 
 	
 	
