@@ -1,15 +1,11 @@
-import netflixClone from '../assets/projectImg/netflixclone.png';
 import travelApp from '../assets/projectImg/travelapp.png';
 import movieApp from '../assets/projectImg/movieapp.png';
 import chatroomApp from '../assets/projectImg/chatroom.png';
 import calculatorApp from '../assets/projectImg/calculator.png';
-import githubSearchApp from '../assets/projectImg/githubsearch.png';
-import formValidatorApp from '../assets/projectImg/formvalidator.png';
 import wordleCloneApp from '../assets/projectImg/wordleclone.png';
-import meTubeApp from '../assets/projectImg/metubeapp.PNG'
-import cryptoApp from '../assets/projectImg/cryptoapp.PNG'
-import notesApp from '../assets/projectImg/notesapp.PNG'
-
+import meTubeApp from '../assets/projectImg/metubeapp.PNG';
+import cryptoApp from '../assets/projectImg/cryptoapp.PNG';
+import notesApp from '../assets/projectImg/notesapp.PNG';
 
 const projects = [
 	{
@@ -19,7 +15,7 @@ const projects = [
 		img: notesApp,
 		code: 'https://github.com/byronbzhao/CRUD-notes-app-ts',
 		liveServer: 'https://takenoteshere.netlify.app/',
-		skills: ['ReactJS', 'Bootstrap', 'Typescript',]
+		skills: ['ReactJS', 'Bootstrap', 'Typescript'],
 	},
 	{
 		id: 2,

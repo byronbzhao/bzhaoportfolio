@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from '../Home/Home.styles';
 import { motion } from 'framer-motion';
 import {
 	Container,

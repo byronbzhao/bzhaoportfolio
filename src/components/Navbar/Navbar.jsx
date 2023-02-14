@@ -108,7 +108,7 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li>
-						<a href='https://drive.google.com/file/d/1bR-J2dx5FvzuolFCWynQTcYuUl4n1x51/view?usp=sharing' target='_blank' rel='noreferrer'>
+						<a href='https://drive.google.com/file/d/1dc0Ruihutrx3mGwbblhj-9x2wLzIY1ag/view?usp=sharing' target='_blank' rel='noreferrer'>
 							<p>Resume</p>
 							<BsFillPersonLinesFill size={30} />
 						</a>
